@@ -28,7 +28,7 @@
   grid-row-gap: 1rem;
 }
 
-@media (max-width: 512px) {
+@media (max-width: 585px) {
   #grid {
     display: grid;
     grid-template-areas:
