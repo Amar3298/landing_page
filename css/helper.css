@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap");
+.center,
+.center-column,
+.top,
+.right,
+.bottom,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.top {
+  align-items: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.singel-spaced,
+.singel-spaced * {
+  line-height: 1;
+}
+
+.navFont {
+  font-family: "Baloo 2", cursive;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.changeF {
+  /* color: #2f094a !important; */
+  /* color: whitesmoke !important; */
+  /* box-shadow: 10px 5px 5px red; */
+  /* text-shadow: 0px 0px 9px rgb(130, 17, 109); */
+  /* border: 2px solid rgb(70, 70, 45);
+  border-radius: 25px; */
+}
+
+@media (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+}

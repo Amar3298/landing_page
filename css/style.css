@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background: black url("../img/lamborghini_desktop.jpg") center / cover;
+  filter: opacity(90%) !important;
+}
+
+.paddingA {
+  width: 15.75rem !important;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    background: black url("../img/lamborghini_tablets.jpg") center / cover;
+  }
+
+  .paddingA {
+    width: 10.75rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: black url("../img/lamborghini_android.jpg") center / cover;
+  }
+
+  .paddingA {
+    width: inherit !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero {
+    background: black url("../img/lamborghini_small_phone.jpg") center / cover;
+  }
+
+  .paddingA {
+    width: inherit !important;
+  }
+}
